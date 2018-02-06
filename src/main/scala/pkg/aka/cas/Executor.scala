@@ -50,6 +50,5 @@ class Executor extends Actor {
         * This goes back to Sender looking for some queries to execute
         * */
       sender ! moreQuery
-//      session.close()
   }
 }
